@@ -3,11 +3,8 @@
 int main() {
 	int n1;
 	int n2;
-	printf("Type a number 1: \n");
-	scanf("%d", &n1);
-	
-	printf("Type a number 2: \n");
-	scanf("%d", &n2);
+	printf("Type a number1 and number2: \n");
+	scanf("%d %d", &n1,&n2);
 
 	if (n1>n2){
 		printf("num1 is greater than num2");
